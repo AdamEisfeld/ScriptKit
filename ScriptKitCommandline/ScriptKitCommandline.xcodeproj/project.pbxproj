@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3119D0225B9ED03007C9155 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D0125B9ED03007C9155 /* Input.swift */; };
+		F3119D0725B9EFFF007C9155 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D0625B9EFFF007C9155 /* FileIO.swift */; };
+		F3119D0A25B9F1AF007C9155 /* VSCodeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D0925B9F1AF007C9155 /* VSCodeConfig.swift */; };
+		F3119D2E25BA1873007C9155 /* URL+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D2D25BA1873007C9155 /* URL+Utils.swift */; };
+		F3606FB525B7A6E300BC8E2D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FB425B7A6E300BC8E2D /* main.swift */; };
+		F3606FD525B7EAF100BC8E2D /* Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FC325B7EAF000BC8E2D /* Terminal.swift */; };
+		F3606FD625B7EAF100BC8E2D /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FC425B7EAF000BC8E2D /* JSON.swift */; };
+		F3606FD725B7EAF100BC8E2D /* SwiftLanguageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FC525B7EAF000BC8E2D /* SwiftLanguageFormatter.swift */; };
+		F3606FD925B7EAF100BC8E2D /* TerminalInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FC825B7EAF000BC8E2D /* TerminalInput.swift */; };
+		F3606FDA25B7EAF100BC8E2D /* LanguageFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FC925B7EAF100BC8E2D /* LanguageFormatterProtocol.swift */; };
+		F3606FDB25B7EAF100BC8E2D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FCA25B7EAF100BC8E2D /* Config.swift */; };
+		F3606FDC25B7EAF100BC8E2D /* MustacheSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FCB25B7EAF100BC8E2D /* MustacheSwift.swift */; };
+		F3606FDD25B7EAF100BC8E2D /* MustacheJavascript.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FCC25B7EAF100BC8E2D /* MustacheJavascript.swift */; };
+		F3606FDE25B7EAF100BC8E2D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FCD25B7EAF100BC8E2D /* Location.swift */; };
+		F3606FDF25B7EAF100BC8E2D /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FCE25B7EAF100BC8E2D /* Target.swift */; };
+		F3606FE025B7EAF100BC8E2D /* AST.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FCF25B7EAF100BC8E2D /* AST.swift */; };
+		F3606FE225B7EAF100BC8E2D /* JavascriptLanguageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FD125B7EAF100BC8E2D /* JavascriptLanguageFormatter.swift */; };
+		F3606FE425B7EAF100BC8E2D /* TemplateEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FD325B7EAF100BC8E2D /* TemplateEngine.swift */; };
+		F3606FE525B7EAF100BC8E2D /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3606FD425B7EAF100BC8E2D /* String+Utils.swift */; };
+		F3606FE925B7EB4100BC8E2D /* Mustache in Frameworks */ = {isa = PBXBuildFile; productRef = F3606FE825B7EB4100BC8E2D /* Mustache */; };
+		F36070B125B9380700BC8E2D /* Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36070B025B9380700BC8E2D /* Output.swift */; };
+		F36070C325B9DCD400BC8E2D /* MustacheVSCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36070C225B9DCD400BC8E2D /* MustacheVSCode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3606FAF25B7A6E300BC8E2D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F3119D0125B9ED03007C9155 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		F3119D0625B9EFFF007C9155 /* FileIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
+		F3119D0925B9F1AF007C9155 /* VSCodeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSCodeConfig.swift; sourceTree = "<group>"; };
+		F3119D2D25BA1873007C9155 /* URL+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Utils.swift"; sourceTree = "<group>"; };
+		F3606FB125B7A6E300BC8E2D /* scriptkit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = scriptkit; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3606FB425B7A6E300BC8E2D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F3606FC325B7EAF000BC8E2D /* Terminal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Terminal.swift; sourceTree = "<group>"; };
+		F3606FC425B7EAF000BC8E2D /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		F3606FC525B7EAF000BC8E2D /* SwiftLanguageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLanguageFormatter.swift; sourceTree = "<group>"; };
+		F3606FC825B7EAF000BC8E2D /* TerminalInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerminalInput.swift; sourceTree = "<group>"; };
+		F3606FC925B7EAF100BC8E2D /* LanguageFormatterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageFormatterProtocol.swift; sourceTree = "<group>"; };
+		F3606FCA25B7EAF100BC8E2D /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F3606FCB25B7EAF100BC8E2D /* MustacheSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MustacheSwift.swift; sourceTree = "<group>"; };
+		F3606FCC25B7EAF100BC8E2D /* MustacheJavascript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MustacheJavascript.swift; sourceTree = "<group>"; };
+		F3606FCD25B7EAF100BC8E2D /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F3606FCE25B7EAF100BC8E2D /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		F3606FCF25B7EAF100BC8E2D /* AST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AST.swift; sourceTree = "<group>"; };
+		F3606FD125B7EAF100BC8E2D /* JavascriptLanguageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavascriptLanguageFormatter.swift; sourceTree = "<group>"; };
+		F3606FD325B7EAF100BC8E2D /* TemplateEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateEngine.swift; sourceTree = "<group>"; };
+		F3606FD425B7EAF100BC8E2D /* String+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		F36070B025B9380700BC8E2D /* Output.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Output.swift; sourceTree = "<group>"; };
+		F36070C225B9DCD400BC8E2D /* MustacheVSCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustacheVSCode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3606FAE25B7A6E300BC8E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3606FE925B7EB4100BC8E2D /* Mustache in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3119D0C25B9FC93007C9155 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F3119D0625B9EFFF007C9155 /* FileIO.swift */,
+				F3606FC825B7EAF000BC8E2D /* TerminalInput.swift */,
+				F3606FC325B7EAF000BC8E2D /* Terminal.swift */,
+				F3606FC425B7EAF000BC8E2D /* JSON.swift */,
+				F3606FD425B7EAF100BC8E2D /* String+Utils.swift */,
+				F3119D2D25BA1873007C9155 /* URL+Utils.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		F3119D0D25B9FCAC007C9155 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				F3606FCA25B7EAF100BC8E2D /* Config.swift */,
+				F3606FCE25B7EAF100BC8E2D /* Target.swift */,
+				F3119D0125B9ED03007C9155 /* Input.swift */,
+				F3606FCD25B7EAF100BC8E2D /* Location.swift */,
+				F36070B025B9380700BC8E2D /* Output.swift */,
+				F3119D0925B9F1AF007C9155 /* VSCodeConfig.swift */,
+				F3606FCF25B7EAF100BC8E2D /* AST.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		F3119D0E25B9FCEF007C9155 /* Formatting */ = {
+			isa = PBXGroup;
+			children = (
+				F3606FC925B7EAF100BC8E2D /* LanguageFormatterProtocol.swift */,
+				F3606FC525B7EAF000BC8E2D /* SwiftLanguageFormatter.swift */,
+				F3606FD125B7EAF100BC8E2D /* JavascriptLanguageFormatter.swift */,
+			);
+			path = Formatting;
+			sourceTree = "<group>";
+		};
+		F3119D0F25B9FCFA007C9155 /* Templating */ = {
+			isa = PBXGroup;
+			children = (
+				F3606FD325B7EAF100BC8E2D /* TemplateEngine.swift */,
+				F3606FCC25B7EAF100BC8E2D /* MustacheJavascript.swift */,
+				F36070C225B9DCD400BC8E2D /* MustacheVSCode.swift */,
+				F3606FCB25B7EAF100BC8E2D /* MustacheSwift.swift */,
+			);
+			path = Templating;
+			sourceTree = "<group>";
+		};
+		F3606FA825B7A6E300BC8E2D = {
+			isa = PBXGroup;
+			children = (
+				F3606FB325B7A6E300BC8E2D /* ScriptKitCommandline */,
+				F3606FB225B7A6E300BC8E2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3606FB225B7A6E300BC8E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3606FB125B7A6E300BC8E2D /* scriptkit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3606FB325B7A6E300BC8E2D /* ScriptKitCommandline */ = {
+			isa = PBXGroup;
+			children = (
+				F3606FB425B7A6E300BC8E2D /* main.swift */,
+				F3119D0C25B9FC93007C9155 /* System */,
+				F3119D0D25B9FCAC007C9155 /* Input */,
+				F3119D0E25B9FCEF007C9155 /* Formatting */,
+				F3119D0F25B9FCFA007C9155 /* Templating */,
+			);
+			path = ScriptKitCommandline;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3606FB025B7A6E300BC8E2D /* scriptkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3606FB825B7A6E300BC8E2D /* Build configuration list for PBXNativeTarget "scriptkit" */;
+			buildPhases = (
+				F3606FAD25B7A6E300BC8E2D /* Sources */,
+				F3606FAE25B7A6E300BC8E2D /* Frameworks */,
+				F3606FAF25B7A6E300BC8E2D /* CopyFiles */,
+				F3606FF625B7EDDC00BC8E2D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scriptkit;
+			packageProductDependencies = (
+				F3606FE825B7EB4100BC8E2D /* Mustache */,
+			);
+			productName = ScriptKitCommandline;
+			productReference = F3606FB125B7A6E300BC8E2D /* scriptkit */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3606FA925B7A6E300BC8E2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F3606FB025B7A6E300BC8E2D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = F3606FAC25B7A6E300BC8E2D /* Build configuration list for PBXProject "ScriptKitCommandline" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3606FA825B7A6E300BC8E2D;
+			packageReferences = (
+				F3606FE725B7EB4100BC8E2D /* XCRemoteSwiftPackageReference "GRMustache" */,
+			);
+			productRefGroup = F3606FB225B7A6E300BC8E2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3606FB025B7A6E300BC8E2D /* scriptkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F3606FF625B7EDDC00BC8E2D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncp ${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME} ${PROJECT_DIR}\ncp ${BUILT_PRODUCTS_DIR}/${EXECUTABLE_NAME} ${PROJECT_DIR}/../ScriptKitScratchpad/Scripting/\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3606FAD25B7A6E300BC8E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3606FDC25B7EAF100BC8E2D /* MustacheSwift.swift in Sources */,
+				F3606FE225B7EAF100BC8E2D /* JavascriptLanguageFormatter.swift in Sources */,
+				F3606FDE25B7EAF100BC8E2D /* Location.swift in Sources */,
+				F3606FDA25B7EAF100BC8E2D /* LanguageFormatterProtocol.swift in Sources */,
+				F36070B125B9380700BC8E2D /* Output.swift in Sources */,
+				F3119D0725B9EFFF007C9155 /* FileIO.swift in Sources */,
+				F36070C325B9DCD400BC8E2D /* MustacheVSCode.swift in Sources */,
+				F3119D0A25B9F1AF007C9155 /* VSCodeConfig.swift in Sources */,
+				F3606FE425B7EAF100BC8E2D /* TemplateEngine.swift in Sources */,
+				F3119D0225B9ED03007C9155 /* Input.swift in Sources */,
+				F3606FDD25B7EAF100BC8E2D /* MustacheJavascript.swift in Sources */,
+				F3119D2E25BA1873007C9155 /* URL+Utils.swift in Sources */,
+				F3606FD925B7EAF100BC8E2D /* TerminalInput.swift in Sources */,
+				F3606FD725B7EAF100BC8E2D /* SwiftLanguageFormatter.swift in Sources */,
+				F3606FDF25B7EAF100BC8E2D /* Target.swift in Sources */,
+				F3606FE025B7EAF100BC8E2D /* AST.swift in Sources */,
+				F3606FD625B7EAF100BC8E2D /* JSON.swift in Sources */,
+				F3606FE525B7EAF100BC8E2D /* String+Utils.swift in Sources */,
+				F3606FDB25B7EAF100BC8E2D /* Config.swift in Sources */,
+				F3606FB525B7A6E300BC8E2D /* main.swift in Sources */,
+				F3606FD525B7EAF100BC8E2D /* Terminal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3606FB625B7A6E300BC8E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_MAP_FILE_PATH = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3606FB725B7A6E300BC8E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F3606FB925B7A6E300BC8E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F3606FBA25B7A6E300BC8E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3606FAC25B7A6E300BC8E2D /* Build configuration list for PBXProject "ScriptKitCommandline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3606FB625B7A6E300BC8E2D /* Debug */,
+				F3606FB725B7A6E300BC8E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3606FB825B7A6E300BC8E2D /* Build configuration list for PBXNativeTarget "scriptkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3606FB925B7A6E300BC8E2D /* Debug */,
+				F3606FBA25B7A6E300BC8E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3606FE725B7EB4100BC8E2D /* XCRemoteSwiftPackageReference "GRMustache" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRMustache.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3606FE825B7EB4100BC8E2D /* Mustache */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3606FE725B7EB4100BC8E2D /* XCRemoteSwiftPackageReference "GRMustache" */;
+			productName = Mustache;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F3606FA925B7A6E300BC8E2D /* Project object */;
+}

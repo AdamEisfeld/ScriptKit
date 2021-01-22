@@ -1,0 +1,20 @@
+{
+  "className" : "Screen",
+  "classDocumentation" : "A class that provides functionality for rendering things to the screen",
+  "classProperties" : [],
+  "instanceProperties" : [],
+  "classFunctions" : [],
+  "instanceFunctions" : [
+    {
+      "functionName" : "addDrawable",
+      "functionDocumentation" : "Adds a drawable to the screen",
+      "functionArguments" : [
+        {
+          "argumentName" : "drawable",
+          "argumentType" : "Drawable",
+          "argumentDocumentation" : "The drawable to add"
+        }
+      ]
+    }
+  ]
+}

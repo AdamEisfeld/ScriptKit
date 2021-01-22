@@ -1,0 +1,53 @@
+{
+  "className" : "Drawable",
+  "classDocumentation" : "An example demonstrating the ability to parse json into a swift protocol",
+  "classProperties" : [],
+  "instanceProperties" : [
+      {
+        "propertyName" : "position",
+        "propertyDocumentation" : "The position of this drawable",
+        "propertyType" : "ModularVector2",
+        "propertyWritable" : true
+      },
+      {
+        "propertyName" : "size",
+        "propertyDocumentation" : "The size of this drawable",
+        "propertyType" : "ModularVector2",
+        "propertyWritable" : true
+      },
+      {
+        "propertyName" : "fillColor",
+        "propertyDocumentation" : "The fill color of this drawable",
+        "propertyType" : "ModularColor",
+        "propertyWritable" : true
+      }
+  ],
+  "classFunctions" : [
+    {
+      "functionName" : "makeDrawable",
+      "functionDocumentation" : "Creates a new drawable",
+      "functionArguments" : [
+        {
+          "argumentName" : "position",
+          "argumentType" : "ModularVector2",
+          "argumentDocumentation" : "The position of the drawable"
+        },
+        {
+          "argumentName" : "size",
+          "argumentType" : "ModularVector2",
+          "argumentDocumentation" : "The size of the drawable"
+        },
+        {
+          "argumentName" : "color",
+          "argumentType" : "ModularColor",
+          "argumentDocumentation" : "The fill color of the drawable"
+        }
+      ],
+      "functionReturnValue" : {
+        "valueType" : "Drawable",
+        "valueDocumentation" : "A new drawable"
+      }
+    }
+  ],
+  "instanceFunctions" : []
+}

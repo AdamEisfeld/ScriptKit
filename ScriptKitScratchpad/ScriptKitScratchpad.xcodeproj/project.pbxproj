@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3119D2025B9FE76007C9155 /* jsconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = F3119D1B25B9FE76007C9155 /* jsconfig.json */; };
+		F3119D2125B9FE76007C9155 /* jsconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = F3119D1B25B9FE76007C9155 /* jsconfig.json */; };
+		F3119D3F25BA2D43007C9155 /* ModularVector2Scriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D3C25BA2D43007C9155 /* ModularVector2Scriptable.swift */; };
+		F3119D4025BA2D43007C9155 /* ModularVector2Scriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D3C25BA2D43007C9155 /* ModularVector2Scriptable.swift */; };
+		F3119D4125BA2D43007C9155 /* DrawableScriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D3D25BA2D43007C9155 /* DrawableScriptable.swift */; };
+		F3119D4225BA2D43007C9155 /* DrawableScriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D3D25BA2D43007C9155 /* DrawableScriptable.swift */; };
+		F3119D4325BA2D43007C9155 /* ModularColorScriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D3E25BA2D43007C9155 /* ModularColorScriptable.swift */; };
+		F3119D4425BA2D43007C9155 /* ModularColorScriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D3E25BA2D43007C9155 /* ModularColorScriptable.swift */; };
+		F3119D4925BA47DA007C9155 /* ScreenScriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D4825BA47DA007C9155 /* ScreenScriptable.swift */; };
+		F3119D4A25BA47DA007C9155 /* ScreenScriptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119D4825BA47DA007C9155 /* ScreenScriptable.swift */; };
+		F360704425B890BD00BC8E2D /* ScriptKitScratchpadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360703125B890BC00BC8E2D /* ScriptKitScratchpadApp.swift */; };
+		F360704525B890BD00BC8E2D /* ScriptKitScratchpadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360703125B890BC00BC8E2D /* ScriptKitScratchpadApp.swift */; };
+		F360704825B890BD00BC8E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360703325B890BD00BC8E2D /* Assets.xcassets */; };
+		F360704925B890BD00BC8E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F360703325B890BD00BC8E2D /* Assets.xcassets */; };
+		F360707825B8931B00BC8E2D /* ScratchPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360707725B8931B00BC8E2D /* ScratchPadViewController.swift */; };
+		F360707925B8931B00BC8E2D /* ScratchPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360707725B8931B00BC8E2D /* ScratchPadViewController.swift */; };
+		F360707D25B8934C00BC8E2D /* BridgeUserInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360707C25B8934C00BC8E2D /* BridgeUserInterface.swift */; };
+		F360708725B8936000BC8E2D /* BridgeUserInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F360708525B8936000BC8E2D /* BridgeUserInterface.swift */; };
+		F360709D25B8F21B00BC8E2D /* ScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F360705F25B8910800BC8E2D /* ScriptKit.framework */; };
+		F360709E25B8F21B00BC8E2D /* ScriptKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F360705F25B8910800BC8E2D /* ScriptKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F36070A125B8F21F00BC8E2D /* ScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F360705D25B8910800BC8E2D /* ScriptKit.framework */; };
+		F36070A225B8F21F00BC8E2D /* ScriptKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F360705D25B8910800BC8E2D /* ScriptKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F360705C25B8910800BC8E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F360705725B8910800BC8E2D /* ScriptKitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F360700A25B88D2B00BC8E2D;
+			remoteInfo = "scriptkitframework-ios";
+		};
+		F360705E25B8910800BC8E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F360705725B8910800BC8E2D /* ScriptKitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F360701925B88D6500BC8E2D;
+			remoteInfo = "scriptkitframework-macos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F360709F25B8F21B00BC8E2D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F360709E25B8F21B00BC8E2D /* ScriptKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36070A325B8F21F00BC8E2D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F36070A225B8F21F00BC8E2D /* ScriptKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F3119D1B25B9FE76007C9155 /* jsconfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsconfig.json; sourceTree = "<group>"; };
+		F3119D3C25BA2D43007C9155 /* ModularVector2Scriptable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModularVector2Scriptable.swift; sourceTree = "<group>"; };
+		F3119D3D25BA2D43007C9155 /* DrawableScriptable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawableScriptable.swift; sourceTree = "<group>"; };
+		F3119D3E25BA2D43007C9155 /* ModularColorScriptable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModularColorScriptable.swift; sourceTree = "<group>"; };
+		F3119D4825BA47DA007C9155 /* ScreenScriptable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenScriptable.swift; sourceTree = "<group>"; };
+		F360703125B890BC00BC8E2D /* ScriptKitScratchpadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptKitScratchpadApp.swift; sourceTree = "<group>"; };
+		F360703325B890BD00BC8E2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F360703825B890BD00BC8E2D /* ScriptKitScratchpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScriptKitScratchpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F360703B25B890BD00BC8E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F360704025B890BD00BC8E2D /* ScriptKitScratchpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScriptKitScratchpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F360704225B890BD00BC8E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F360704325B890BD00BC8E2D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F360705725B8910800BC8E2D /* ScriptKitFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ScriptKitFramework.xcodeproj; path = ../ScriptKitFramework/ScriptKitFramework.xcodeproj; sourceTree = "<group>"; };
+		F360707725B8931B00BC8E2D /* ScratchPadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchPadViewController.swift; sourceTree = "<group>"; };
+		F360707C25B8934C00BC8E2D /* BridgeUserInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeUserInterface.swift; sourceTree = "<group>"; };
+		F360708525B8936000BC8E2D /* BridgeUserInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeUserInterface.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F360703525B890BD00BC8E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36070A125B8F21F00BC8E2D /* ScriptKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F360703D25B890BD00BC8E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F360709D25B8F21B00BC8E2D /* ScriptKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3119D1925B9FE76007C9155 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				F3119D1A25B9FE76007C9155 /* Workspace */,
+				F3119D1C25B9FE76007C9155 /* Swift */,
+				F3119D1E25B9FE76007C9155 /* Javascript */,
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
+		F3119D1A25B9FE76007C9155 /* Workspace */ = {
+			isa = PBXGroup;
+			children = (
+				F3119D1B25B9FE76007C9155 /* jsconfig.json */,
+			);
+			path = Workspace;
+			sourceTree = "<group>";
+		};
+		F3119D1C25B9FE76007C9155 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F3119D3D25BA2D43007C9155 /* DrawableScriptable.swift */,
+				F3119D3E25BA2D43007C9155 /* ModularColorScriptable.swift */,
+				F3119D3C25BA2D43007C9155 /* ModularVector2Scriptable.swift */,
+				F3119D4825BA47DA007C9155 /* ScreenScriptable.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		F3119D1E25B9FE76007C9155 /* Javascript */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Javascript;
+			sourceTree = "<group>";
+		};
+		F360702B25B890BC00BC8E2D = {
+			isa = PBXGroup;
+			children = (
+				F360705725B8910800BC8E2D /* ScriptKitFramework.xcodeproj */,
+				F360703025B890BC00BC8E2D /* Shared */,
+				F360703A25B890BD00BC8E2D /* iOS */,
+				F360704125B890BD00BC8E2D /* macOS */,
+				F360703925B890BD00BC8E2D /* Products */,
+				F360706025B8914100BC8E2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F360703025B890BC00BC8E2D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F3119D1925B9FE76007C9155 /* Output */,
+				F360703125B890BC00BC8E2D /* ScriptKitScratchpadApp.swift */,
+				F360707725B8931B00BC8E2D /* ScratchPadViewController.swift */,
+				F360703325B890BD00BC8E2D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F360703925B890BD00BC8E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F360703825B890BD00BC8E2D /* ScriptKitScratchpad.app */,
+				F360704025B890BD00BC8E2D /* ScriptKitScratchpad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F360703A25B890BD00BC8E2D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F360703B25B890BD00BC8E2D /* Info.plist */,
+				F360707C25B8934C00BC8E2D /* BridgeUserInterface.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F360704125B890BD00BC8E2D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F360704225B890BD00BC8E2D /* Info.plist */,
+				F360708525B8936000BC8E2D /* BridgeUserInterface.swift */,
+				F360704325B890BD00BC8E2D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F360705825B8910800BC8E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F360705D25B8910800BC8E2D /* ScriptKit.framework */,
+				F360705F25B8910800BC8E2D /* ScriptKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F360706025B8914100BC8E2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F360703725B890BD00BC8E2D /* ScriptKitScratchpad (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F360704C25B890BD00BC8E2D /* Build configuration list for PBXNativeTarget "ScriptKitScratchpad (iOS)" */;
+			buildPhases = (
+				F360703425B890BD00BC8E2D /* Sources */,
+				F360703525B890BD00BC8E2D /* Frameworks */,
+				F360703625B890BD00BC8E2D /* Resources */,
+				F36070A325B8F21F00BC8E2D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScriptKitScratchpad (iOS)";
+			productName = "ScriptKitScratchpad (iOS)";
+			productReference = F360703825B890BD00BC8E2D /* ScriptKitScratchpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F360703F25B890BD00BC8E2D /* ScriptKitScratchpad (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F360704F25B890BD00BC8E2D /* Build configuration list for PBXNativeTarget "ScriptKitScratchpad (macOS)" */;
+			buildPhases = (
+				F360703C25B890BD00BC8E2D /* Sources */,
+				F360703D25B890BD00BC8E2D /* Frameworks */,
+				F360703E25B890BD00BC8E2D /* Resources */,
+				F360709F25B8F21B00BC8E2D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScriptKitScratchpad (macOS)";
+			productName = "ScriptKitScratchpad (macOS)";
+			productReference = F360704025B890BD00BC8E2D /* ScriptKitScratchpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F360702C25B890BC00BC8E2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F360703725B890BD00BC8E2D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F360703F25B890BD00BC8E2D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = F360702F25B890BC00BC8E2D /* Build configuration list for PBXProject "ScriptKitScratchpad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F360702B25B890BC00BC8E2D;
+			productRefGroup = F360703925B890BD00BC8E2D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F360705825B8910800BC8E2D /* Products */;
+					ProjectRef = F360705725B8910800BC8E2D /* ScriptKitFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F360703725B890BD00BC8E2D /* ScriptKitScratchpad (iOS) */,
+				F360703F25B890BD00BC8E2D /* ScriptKitScratchpad (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F360705D25B8910800BC8E2D /* ScriptKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ScriptKit.framework;
+			remoteRef = F360705C25B8910800BC8E2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F360705F25B8910800BC8E2D /* ScriptKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ScriptKit.framework;
+			remoteRef = F360705E25B8910800BC8E2D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F360703625B890BD00BC8E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3119D2025B9FE76007C9155 /* jsconfig.json in Resources */,
+				F360704825B890BD00BC8E2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F360703E25B890BD00BC8E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3119D2125B9FE76007C9155 /* jsconfig.json in Resources */,
+				F360704925B890BD00BC8E2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F360703425B890BD00BC8E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F360707D25B8934C00BC8E2D /* BridgeUserInterface.swift in Sources */,
+				F360704425B890BD00BC8E2D /* ScriptKitScratchpadApp.swift in Sources */,
+				F3119D4325BA2D43007C9155 /* ModularColorScriptable.swift in Sources */,
+				F3119D4925BA47DA007C9155 /* ScreenScriptable.swift in Sources */,
+				F360707825B8931B00BC8E2D /* ScratchPadViewController.swift in Sources */,
+				F3119D4125BA2D43007C9155 /* DrawableScriptable.swift in Sources */,
+				F3119D3F25BA2D43007C9155 /* ModularVector2Scriptable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F360703C25B890BD00BC8E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F360708725B8936000BC8E2D /* BridgeUserInterface.swift in Sources */,
+				F360704525B890BD00BC8E2D /* ScriptKitScratchpadApp.swift in Sources */,
+				F3119D4425BA2D43007C9155 /* ModularColorScriptable.swift in Sources */,
+				F3119D4A25BA47DA007C9155 /* ScreenScriptable.swift in Sources */,
+				F360707925B8931B00BC8E2D /* ScratchPadViewController.swift in Sources */,
+				F3119D4225BA2D43007C9155 /* DrawableScriptable.swift in Sources */,
+				F3119D4025BA2D43007C9155 /* ModularVector2Scriptable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F360704A25B890BD00BC8E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F360704B25B890BD00BC8E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F360704D25B890BD00BC8E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = scriptkit.ScriptKitScratchpad;
+				PRODUCT_NAME = ScriptKitScratchpad;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F360704E25B890BD00BC8E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = scriptkit.ScriptKitScratchpad;
+				PRODUCT_NAME = ScriptKitScratchpad;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F360705025B890BD00BC8E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = scriptkit.ScriptKitScratchpad;
+				PRODUCT_NAME = ScriptKitScratchpad;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F360705125B890BD00BC8E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = scriptkit.ScriptKitScratchpad;
+				PRODUCT_NAME = ScriptKitScratchpad;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F360702F25B890BC00BC8E2D /* Build configuration list for PBXProject "ScriptKitScratchpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F360704A25B890BD00BC8E2D /* Debug */,
+				F360704B25B890BD00BC8E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F360704C25B890BD00BC8E2D /* Build configuration list for PBXNativeTarget "ScriptKitScratchpad (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F360704D25B890BD00BC8E2D /* Debug */,
+				F360704E25B890BD00BC8E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F360704F25B890BD00BC8E2D /* Build configuration list for PBXNativeTarget "ScriptKitScratchpad (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F360705025B890BD00BC8E2D /* Debug */,
+				F360705125B890BD00BC8E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F360702C25B890BC00BC8E2D /* Project object */;
+}

@@ -1,0 +1,303 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TypeAST"
+- "ClassAST"
+- "PropertyAST"
+- "FunctionAST"
+- "ArgumentAST"
+- "ReturnValueAST"
+provides-nominal:
+- "9scriptkit7TypeASTO"
+- "9scriptkit8ClassASTV"
+- "9scriptkit11PropertyASTV"
+- "9scriptkit11FunctionASTV"
+- "9scriptkit11ArgumentASTV"
+- "9scriptkit14ReturnValueASTV"
+provides-member:
+- ["9scriptkit7TypeASTO", ""]
+- ["9scriptkit8ClassASTV", ""]
+- ["9scriptkit11PropertyASTV", ""]
+- ["9scriptkit11FunctionASTV", ""]
+- ["9scriptkit11ArgumentASTV", ""]
+- ["9scriptkit14ReturnValueASTV", ""]
+- ["9scriptkit7TypeASTO", "stringRepresentation"]
+- ["9scriptkit7TypeASTO", "init"]
+- ["9scriptkit7TypeASTO", "encode"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "ArgumentAST"
+- "AssignmentPrecedence"
+- "Bool"
+- "ClassAST"
+- "Codable"
+- "Decoder"
+- "Encoder"
+- !private "FloatLiteralType"
+- "FunctionAST"
+- !private "IntegerLiteralType"
+- "PropertyAST"
+- "ReturnValueAST"
+- "String"
+- !private "StringLiteralType"
+- "TypeAST"
+- !private "stringRepresentation"
+- !private "~="
+depends-member:
+- ["9scriptkit11ArgumentASTV", "CodingKeys"]
+- ["9scriptkit11ArgumentASTV", "String"]
+- ["9scriptkit11ArgumentASTV", "TypeAST"]
+- ["9scriptkit11ArgumentASTV", ""]
+- ["9scriptkit11ArgumentASTV", "argumentDocumentation"]
+- ["9scriptkit11ArgumentASTV", "argumentName"]
+- ["9scriptkit11ArgumentASTV", "argumentType"]
+- ["9scriptkit11ArgumentASTV", "encode"]
+- ["9scriptkit11ArgumentASTV", "init"]
+- ["9scriptkit8ClassASTV", "CodingKeys"]
+- ["9scriptkit8ClassASTV", "FunctionAST"]
+- ["9scriptkit8ClassASTV", "PropertyAST"]
+- ["9scriptkit8ClassASTV", "String"]
+- ["9scriptkit8ClassASTV", ""]
+- ["9scriptkit8ClassASTV", "classDocumentation"]
+- ["9scriptkit8ClassASTV", "classFunctions"]
+- ["9scriptkit8ClassASTV", "className"]
+- ["9scriptkit8ClassASTV", "classProperties"]
+- ["9scriptkit8ClassASTV", "encode"]
+- ["9scriptkit8ClassASTV", "init"]
+- ["9scriptkit8ClassASTV", "instanceFunctions"]
+- ["9scriptkit8ClassASTV", "instanceProperties"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["Se", "String"]
+- !private ["Se", "TypeAST"]
+- ["Se", ""]
+- !private ["Se", "allSimpleValues"]
+- !private ["Se", "argumentDocumentation"]
+- !private ["Se", "argumentName"]
+- !private ["Se", "argumentType"]
+- ["Se", "bool"]
+- !private ["Se", "classDocumentation"]
+- !private ["Se", "classFunctions"]
+- !private ["Se", "className"]
+- !private ["Se", "classProperties"]
+- ["Se", "custom"]
+- ["Se", "encode"]
+- ["Se", "float"]
+- !private ["Se", "functionArguments"]
+- !private ["Se", "functionDocumentation"]
+- !private ["Se", "functionName"]
+- !private ["Se", "functionReturnValue"]
+- ["Se", "init"]
+- !private ["Se", "instanceFunctions"]
+- !private ["Se", "instanceProperties"]
+- ["Se", "int"]
+- !private ["Se", "propertyDocumentation"]
+- !private ["Se", "propertyName"]
+- !private ["Se", "propertyType"]
+- !private ["Se", "propertyWritable"]
+- ["Se", "string"]
+- !private ["Se", "stringRepresentation"]
+- !private ["Se", "valueDocumentation"]
+- !private ["Se", "valueType"]
+- !private ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "singleValueContainer"]
+- !private ["SE", "String"]
+- !private ["SE", "TypeAST"]
+- ["SE", ""]
+- !private ["SE", "allSimpleValues"]
+- !private ["SE", "argumentDocumentation"]
+- !private ["SE", "argumentName"]
+- !private ["SE", "argumentType"]
+- ["SE", "bool"]
+- !private ["SE", "classDocumentation"]
+- !private ["SE", "classFunctions"]
+- !private ["SE", "className"]
+- !private ["SE", "classProperties"]
+- ["SE", "custom"]
+- ["SE", "encode"]
+- ["SE", "float"]
+- !private ["SE", "functionArguments"]
+- !private ["SE", "functionDocumentation"]
+- !private ["SE", "functionName"]
+- !private ["SE", "functionReturnValue"]
+- ["SE", "init"]
+- !private ["SE", "instanceFunctions"]
+- !private ["SE", "instanceProperties"]
+- ["SE", "int"]
+- !private ["SE", "propertyDocumentation"]
+- !private ["SE", "propertyName"]
+- !private ["SE", "propertyType"]
+- !private ["SE", "propertyWritable"]
+- ["SE", "string"]
+- !private ["SE", "stringRepresentation"]
+- !private ["SE", "valueDocumentation"]
+- !private ["SE", "valueType"]
+- !private ["s7EncoderP", "container"]
+- !private ["s7EncoderP", "singleValueContainer"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- ["9scriptkit11FunctionASTV", "ArgumentAST"]
+- ["9scriptkit11FunctionASTV", "CodingKeys"]
+- ["9scriptkit11FunctionASTV", "ReturnValueAST"]
+- ["9scriptkit11FunctionASTV", "String"]
+- ["9scriptkit11FunctionASTV", ""]
+- ["9scriptkit11FunctionASTV", "encode"]
+- ["9scriptkit11FunctionASTV", "functionArguments"]
+- ["9scriptkit11FunctionASTV", "functionDocumentation"]
+- ["9scriptkit11FunctionASTV", "functionName"]
+- ["9scriptkit11FunctionASTV", "functionReturnValue"]
+- ["9scriptkit11FunctionASTV", "init"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["9scriptkit11PropertyASTV", "Bool"]
+- ["9scriptkit11PropertyASTV", "CodingKeys"]
+- ["9scriptkit11PropertyASTV", "String"]
+- ["9scriptkit11PropertyASTV", "TypeAST"]
+- ["9scriptkit11PropertyASTV", ""]
+- ["9scriptkit11PropertyASTV", "encode"]
+- ["9scriptkit11PropertyASTV", "init"]
+- ["9scriptkit11PropertyASTV", "propertyDocumentation"]
+- ["9scriptkit11PropertyASTV", "propertyName"]
+- ["9scriptkit11PropertyASTV", "propertyType"]
+- ["9scriptkit11PropertyASTV", "propertyWritable"]
+- ["9scriptkit14ReturnValueASTV", "CodingKeys"]
+- ["9scriptkit14ReturnValueASTV", "String"]
+- ["9scriptkit14ReturnValueASTV", "TypeAST"]
+- ["9scriptkit14ReturnValueASTV", ""]
+- ["9scriptkit14ReturnValueASTV", "encode"]
+- ["9scriptkit14ReturnValueASTV", "init"]
+- ["9scriptkit14ReturnValueASTV", "valueDocumentation"]
+- ["9scriptkit14ReturnValueASTV", "valueType"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", "makeIterator"]
+- !private ["s28SingleValueDecodingContainerP", "decode"]
+- !private ["s28SingleValueEncodingContainerP", "encode"]
+- ["9scriptkit7TypeASTO", "Decoder"]
+- ["9scriptkit7TypeASTO", "Encoder"]
+- ["9scriptkit7TypeASTO", "String"]
+- ["9scriptkit7TypeASTO", "TypeAST"]
+- ["9scriptkit7TypeASTO", ""]
+- !private ["9scriptkit7TypeASTO", "allSimpleValues"]
+- ["9scriptkit7TypeASTO", "bool"]
+- ["9scriptkit7TypeASTO", "custom"]
+- ["9scriptkit7TypeASTO", "encode"]
+- ["9scriptkit7TypeASTO", "float"]
+- ["9scriptkit7TypeASTO", "init"]
+- ["9scriptkit7TypeASTO", "int"]
+- ["9scriptkit7TypeASTO", "string"]
+- ["9scriptkit7TypeASTO", "stringRepresentation"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "9scriptkit11ArgumentASTV"
+- "9scriptkit8ClassASTV"
+- "s9CodingKeyP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "9scriptkit11FunctionASTV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "9scriptkit11PropertyASTV"
+- "9scriptkit14ReturnValueASTV"
+- !private "ST"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s28SingleValueEncodingContainerP"
+- "9scriptkit7TypeASTO"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8a6c6fb86f17c21138fe3b1bac67c699"

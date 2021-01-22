@@ -1,0 +1,42 @@
+{
+  "className" : "ModularVector2",
+  "classDocumentation" : "A 2D Vector",
+  "classProperties" : [],
+  "instanceProperties" : [
+      {
+        "propertyName" : "x",
+        "propertyDocumentation" : "The x position of this drawable",
+        "propertyType" : "float",
+        "propertyWritable" : true
+      },
+      {
+        "propertyName" : "y",
+        "propertyDocumentation" : "The y position of this drawable",
+        "propertyType" : "float",
+        "propertyWritable" : true
+      }
+  ],
+  "classFunctions" : [
+    {
+      "functionName" : "makeVector",
+      "functionDocumentation" : "Creates a new vector",
+      "functionArguments" : [
+        {
+          "argumentName" : "x",
+          "argumentType" : "float",
+          "argumentDocumentation" : "The x component"
+        },
+        {
+          "argumentName" : "y",
+          "argumentType" : "float",
+          "argumentDocumentation" : "The y component"
+        }
+      ],
+      "functionReturnValue" : {
+        "valueType" : "ModularVector2",
+        "valueDocumentation" : "A new vector"
+      }
+    }
+  ],
+  "instanceFunctions" : []
+}

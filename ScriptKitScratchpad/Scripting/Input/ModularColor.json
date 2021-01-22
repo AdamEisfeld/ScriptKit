@@ -1,0 +1,64 @@
+{
+  "className" : "ModularColor",
+  "classDocumentation" : "A color backed by r, g, b, a values in the 0..1 range",
+  "classProperties" : [],
+  "instanceProperties" : [
+      {
+        "propertyName" : "r",
+        "propertyDocumentation" : "The red component of the color, between 0..1",
+        "propertyType" : "float",
+        "propertyWritable" : true
+      },
+      {
+        "propertyName" : "g",
+        "propertyDocumentation" : "The green component of the color, between 0..1",
+        "propertyType" : "float",
+        "propertyWritable" : true
+      },
+      {
+        "propertyName" : "b",
+        "propertyDocumentation" : "The blue component of the color, between 0..1",
+        "propertyType" : "float",
+        "propertyWritable" : true
+      },
+      {
+        "propertyName" : "a",
+        "propertyDocumentation" : "The alpha component of the color, between 0..1",
+        "propertyType" : "float",
+        "propertyWritable" : true
+      }
+  ],
+  "classFunctions" : [
+    {
+      "functionName" : "makeColor",
+      "functionDocumentation" : "Creates a new color",
+      "functionArguments" : [
+        {
+          "argumentName" : "r",
+          "argumentType" : "float",
+          "argumentDocumentation" : "The red component, between 0..1"
+        },
+        {
+          "argumentName" : "g",
+          "argumentType" : "float",
+          "argumentDocumentation" : "The green component, between 0..1"
+        },
+        {
+          "argumentName" : "b",
+          "argumentType" : "float",
+          "argumentDocumentation" : "The blue component, between 0..1"
+        },
+        {
+          "argumentName" : "a",
+          "argumentType" : "float",
+          "argumentDocumentation" : "The alpha component, between 0..1"
+        }
+      ],
+      "functionReturnValue" : {
+        "valueType" : "ModularColor",
+        "valueDocumentation" : "A new color"
+      }
+    }
+  ],
+  "instanceFunctions" : []
+}

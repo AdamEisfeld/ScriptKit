@@ -1,0 +1,297 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "terminal"
+- "input"
+- "config"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "ClassAST"
+- "Config"
+- "FileManager"
+- "FloatLiteralType"
+- "Input"
+- "IntegerLiteralType"
+- "JSON"
+- "MustacheFormatter"
+- "StringLiteralType"
+- "Terminal"
+- "config"
+- "input"
+- "print"
+- "terminal"
+depends-member:
+- ["SK", ""]
+- ["SK", "write"]
+- ["s7CVarArgP", "createDirectory"]
+- ["s7CVarArgP", "default"]
+- ["s7CVarArgP", "write"]
+- ["9scriptkit8ClassASTV", ""]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["Sl", ""]
+- ["Sl", "write"]
+- ["SL", ""]
+- ["SL", "write"]
+- ["9scriptkit6ConfigV", ""]
+- ["9scriptkit6ConfigV", "asts"]
+- ["9scriptkit6ConfigV", "targets"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "createDirectory"]
+- ["s28CustomDebugStringConvertibleP", "default"]
+- ["s28CustomDebugStringConvertibleP", "deletingLastPathComponent"]
+- ["s28CustomDebugStringConvertibleP", "path"]
+- ["s28CustomDebugStringConvertibleP", "write"]
+- ["s17CustomReflectableP", "write"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "appendInterpolation"]
+- ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "createDirectory"]
+- ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "deletingLastPathComponent"]
+- ["s23CustomStringConvertibleP", "path"]
+- ["s23CustomStringConvertibleP", "utf8"]
+- ["s23CustomStringConvertibleP", "write"]
+- ["Se", "asts"]
+- ["Se", "configPath"]
+- ["Se", "deletingLastPathComponent"]
+- ["Se", "init"]
+- ["Se", "language"]
+- ["Se", "output"]
+- ["Se", "path"]
+- ["Se", "rawValue"]
+- ["Se", "targets"]
+- ["Se", "url"]
+- ["Se", "write"]
+- ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "asts"]
+- ["SE", "configPath"]
+- ["SE", "deletingLastPathComponent"]
+- ["SE", "init"]
+- ["SE", "language"]
+- ["SE", "output"]
+- ["SE", "path"]
+- ["SE", "rawValue"]
+- ["SE", "targets"]
+- ["SE", "url"]
+- ["SE", "write"]
+- ["SS10FoundationE8EncodingV", "utf8"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "createDirectory"]
+- ["SQ", "default"]
+- ["SQ", "deletingLastPathComponent"]
+- ["SQ", "path"]
+- ["SQ", "rawValue"]
+- ["SQ", "utf8"]
+- ["SQ", "write"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "write"]
+- ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s32ExpressibleByStringInterpolationP", "write"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "write"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "write"]
+- ["So13NSFileManagerC", "createDirectory"]
+- ["So13NSFileManagerC", "default"]
+- ["SH", ""]
+- ["SH", "createDirectory"]
+- ["SH", "default"]
+- ["SH", "deletingLastPathComponent"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "path"]
+- ["SH", "rawValue"]
+- ["SH", "utf8"]
+- ["SH", "write"]
+- ["9scriptkit5InputV", "CodingKeys"]
+- ["9scriptkit5InputV", ""]
+- ["9scriptkit5InputV", "configPath"]
+- ["9scriptkit5InputV", "init"]
+- ["9scriptkit4JSONV", "decode"]
+- ["9scriptkit8LanguageO", "RawValue"]
+- ["9scriptkit8LanguageO", ""]
+- ["9scriptkit8LanguageO", "rawValue"]
+- ["9scriptkit8LocationV", ""]
+- ["9scriptkit8LocationV", "url"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "write"]
+- ["s10MirrorPathP", "write"]
+- ["9scriptkit17MustacheFormatterV", "formatClass"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "write"]
+- ["So9NSCopyingP", "write"]
+- ["So21NSItemProviderReadingP", "write"]
+- ["So21NSItemProviderWritingP", "write"]
+- ["So16NSMutableCopyingP", "write"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "createDirectory"]
+- ["So8NSObjectC", "createDirectoryAtPath"]
+- ["So8NSObjectC", "createDirectoryAtURL"]
+- ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "write"]
+- ["So8NSObjectC", "writeToFile"]
+- ["So8NSObjectC", "writeToURL"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "createDirectory"]
+- ["So8NSObjectP", "createDirectoryAtPath"]
+- ["So8NSObjectP", "createDirectoryAtURL"]
+- ["So8NSObjectP", "default"]
+- ["So8NSObjectP", "write"]
+- ["So8NSObjectP", "writeToFile"]
+- ["So8NSObjectP", "writeToURL"]
+- ["So14NSSecureCodingP", "write"]
+- ["So8NSStringC", "write"]
+- ["Sm", "write"]
+- ["SY", "rawValue"]
+- ["SY", "utf8"]
+- ["10Foundation20ReferenceConvertibleP", "deletingLastPathComponent"]
+- ["10Foundation20ReferenceConvertibleP", "path"]
+- ["ST", "Element"]
+- ["ST", "Iterator"]
+- ["ST", ""]
+- ["ST", "makeIterator"]
+- ["ST", "write"]
+- ["SS", "write"]
+- ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["s27StringInterpolationProtocolP", "init"]
+- ["Sy", "write"]
+- ["9scriptkit6TargetV", "language"]
+- ["9scriptkit6TargetV", "output"]
+- ["9scriptkit8TerminalV", "init"]
+- ["9scriptkit8TerminalV", "signalError"]
+- ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", "appendInterpolation"]
+- ["s16TextOutputStreamP", "appendLiteral"]
+- ["s16TextOutputStreamP", "write"]
+- ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", "write"]
+- ["10Foundation3URLV", "deletingLastPathComponent"]
+- ["10Foundation3URLV", "path"]
+- ["s30_CustomPlaygroundQuickLookableP", "deletingLastPathComponent"]
+- ["s30_CustomPlaygroundQuickLookableP", "path"]
+- ["s30_CustomPlaygroundQuickLookableP", "write"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "write"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "write"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "write"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "deletingLastPathComponent"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- ["s19_HasContiguousBytesP", "write"]
+- ["s35_HasCustomAnyHashableRepresentationP", "write"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "createDirectory"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createDirectory"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "write"]
+- ["s21_ObjectiveCBridgeableP", ""]
+- ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "deletingLastPathComponent"]
+- ["s21_ObjectiveCBridgeableP", "path"]
+- ["s21_ObjectiveCBridgeableP", "write"]
+depends-nominal:
+- "SK"
+- "s7CVarArgP"
+- "9scriptkit8ClassASTV"
+- "s9CodingKeyP"
+- "Sl"
+- "SL"
+- "9scriptkit6ConfigV"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "s26DefaultStringInterpolationV"
+- "SE"
+- "SS10FoundationE8EncodingV"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "So13NSFileManagerC"
+- "SH"
+- "9scriptkit5InputV"
+- "9scriptkit4JSONV"
+- "9scriptkit8LanguageO"
+- "9scriptkit8LocationV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "9scriptkit17MustacheFormatterV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "Sm"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "ST"
+- "SS"
+- "s27StringInterpolationProtocolP"
+- "Sy"
+- "9scriptkit6TargetV"
+- "9scriptkit8TerminalV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10Foundation3URLV"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f7ea53422cce4478846eabf64664b9dd"

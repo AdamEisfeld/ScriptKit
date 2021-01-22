@@ -1,0 +1,23 @@
+{
+  "targets" : [
+    {
+      "name" : "Example",
+      "input" : {
+        "schemas" : [
+          {
+            "path" : "Input",
+            "pattern" : "*.json"
+          }
+        ],
+        "swiftTemplate" : "",
+        "javascriptTemplate" : "",
+        "vscodeTemplate" : "",
+      },
+      "output" : {
+        "swift" : "../Shared/Output/Swift",
+        "javascript" : "../Shared/Output/Javascript",
+        "vscode" : "../Shared/Output/Workspace"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "e0efc5cc7f6eff00e600ef70c7506748"
+build_time: [1611117746, 252823000]
+inputs:
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/MustacheSwift.swift": [1610931320, 885026153]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/JavascriptLanguageFormatter.swift": [1610922120, 512359976]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/Location.swift": [1610934509, 514711228]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/LanguageFormatterProtocol.swift": [1610922024, 392396850]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/MustacheFormatter.swift": !dirty [1611117736, 272598799]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/MustacheJavascript.swift": [1610934726, 662314502]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/Input.swift": [1610930556, 337408630]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/templateJavascript.swift": [1610898958, 825876260]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/SwiftLanguageFormatter.swift": [1610930193, 120148224]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/Target.swift": [1610930409, 685921765]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/AST.swift": [1610931694, 183602252]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/Language.swift": [1610931348, 836104386]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/JSON.swift": [1610931820, 739692625]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/String+Utils.swift": [1610898740, 498413567]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/Config.swift": [1610941601, 99501144]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/main.swift": !dirty [1611117714, 674856367]
+  "/Users/adameisfeld/Desktop/ScriptKit/ScriptKitCommandline/ScriptKitCommandline/Terminal.swift": [1610898234, 812858385]
